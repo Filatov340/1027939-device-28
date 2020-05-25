@@ -9,7 +9,12 @@
 	<img src="img/logo.svg" alt="Device">
 	<nav>
 		<ul>
-			<li><a href=#>Поиск по сайту</a></li>
+			<li>
+				<form action="https://echo.htmlacademy.ru/courses" method="get">
+				 <input type="search" name="search" id="search" placeholder="Поиск по сайту">
+				 <button type="submit">Найти</button>
+				</form>
+			</li>
 			<li><a href=#>Войти</a></li>
 			<li><a href=#>Сравнить</a></li>
 			<li><a href=#>Корзина</a></li>
@@ -42,8 +47,17 @@
 	<h2>Контакты</h2>
 	<p>Вы можете забрать товар сами, заехав в наш офис. Заодно вы cможете
 	проверить работоспособность покупки. Всякое бывает.</p>
-	<a href="#"><img src="img/map.png" alt="карта"></a>
+	<a href="img/map-big.png"><img src="img/map.png" alt="карта"></a>
 	<a href="#">Напишите нам</a>
+	<form action="https://echo.htmlacademy.ru/courses" method="post">
+		<label for="name">Ваше имя:</label>
+		<input type="text" name="name" id=name placeholder="Имя Фамилия">
+		<label for="email">Ваш e-mail:</label>
+		<input type="email" name="email" id="email" placeholder="email@example.com">
+		<label for="text-msg">Текст письма:</label>
+		<textarea name="text-msg" id="text-msg" placeholder="В свободной форме"></textarea>
+		<button type="submit">Отправить</button>
+	</form>	
 </section>
 </main>
 <footer>
@@ -62,11 +76,11 @@
 		</ul>
 		<p><a href="tel:+7-495-495-95-95">Тел.+7(495)495-95-95</a></p>
 		<ul>
-			<li><a href=#><img src="img/icon_fb.svg" alt="Facebook"></a></li>
-			<li><a href=#><img src="img/icon_instagram.svg" alt="Instagram"></a></li>
-			<li><a href=#><img src="img/icon_twitter.svg" alt="Twitter"></a></li> 
+			<li><a href=#><img src="img/fb.svg" alt="Facebook"></a></li>
+			<li><a href=#><img src="img/instagram.svg" alt="Instagram"></a></li>
+			<li><a href=#><img src="img/twitter.svg" alt="Twitter"></a></li> 
 		</ul>
-		<a href=#>HTML Academy</a>
+		<a href=#><img src="img/logo-html.svg" alt="HTML Academy"></a>
 	</nav>
 
 </footer>
