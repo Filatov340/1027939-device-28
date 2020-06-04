@@ -1,7 +1,7 @@
 :root {
   --basic-black: #000000;
   --basic-dark: #363636;
-  --basic-white: #00000;
+  --basic-white: #FFFFFF;
   --basic-grey: #464646;
   --basic-half-grey: #7e7e7e;
   --basic-grey-light: #e5e5e5;
@@ -12,18 +12,55 @@
 }
 
 body {
-
-  min-width: 1460px;
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 300;
   color: var(--basic-black);
   background-color: var(--basic-white);
+  font-family: 'Open Sans', "Arial", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0;
+  min-width: 1460px;
+  padding: 0;
+  padding-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+a:active {
+  opacity: 0.3;
+}
+
+a:visited {
+  color: var(--basic-black);
+}
 
 
+
+.main-header {
+  background-color: var(--special-yellow);
+  color: var(--basic-black);
+}
+
+.nav {
+  color: var(--basic-grey);
+}
+
+.footer {
+  background-color: var(--basic-dark);
+  color: var(--basic-white);
+}
+
+.write-us {
+  display: none;
+}
+.map-popup {
+  display: none;
 }
 .visually-hidden {
     position: absolute;
